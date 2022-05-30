@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
+import { FaPlusCircle } from 'react-icons/fa';
 
+/* eslint-disable react/prop-types */
 const InputTodo = (props) => {
   const [inputText, setInputText] = useState({
     title: '',
@@ -13,14 +15,14 @@ const InputTodo = (props) => {
   };
 
   const handleSubmit = (e) => {
+    const { title } = inputText;
+    const { addTodoProps } = props;
     e.preventDefault();
-    if (inputText.title.trim()) {
-      props.addTodoProps(inputText.title);
+    if (title.trim()) {
+      addTodoProps(title);
       setInputText({
         title: '',
       });
-    } else {
-      alert('Please write item');
     }
   };
 
@@ -34,7 +36,11 @@ const InputTodo = (props) => {
         name="title"
         onChange={onChange}
       />
-      <button className="input-submit">Submit</button>
+      <button type="submit" className="input-submit">
+        <FaPlusCircle
+          style={{ color: 'darkcyan', fontSize: '20px', marginTop: '2px' }}
+        />
+      </button>
     </form>
   );
 };
