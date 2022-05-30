@@ -10,8 +10,7 @@ Todo List React App is a todo application built using react. You can add todos a
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://wuletawwonte.github.io/React-ToDo-2.0
-/)
+[Live Demo Link](https://wuletawwonte.github.io/React-ToDo-2.0/)
 ![todo-react](https://user-images.githubusercontent.com/12524453/167872523-5089898d-a953-4c11-9ab8-abefd4197e8a.png)
 
 ## Getting Started
