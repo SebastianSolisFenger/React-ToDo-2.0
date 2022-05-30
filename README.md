@@ -8,6 +8,10 @@ Todo List React App is a todo application built using react. You can add todos a
 - Frameworks: [ReactJS](https://reactjs.org/)
 - Technologies used: [Webpack](https://webpack.js.org/), [Babel](https://babeljs.io/), [React-router-dom](https://reactrouter.com/)
 
+## Live Demo 
+
+[Live Demo Link](https://earnest-pixie-69e027.netlify.app/)
+
 ![image](https://user-images.githubusercontent.com/88522494/171064543-4e0ff21c-774c-4ed4-8ff5-6344462b0ad3.png)
 
 ## Getting Started
